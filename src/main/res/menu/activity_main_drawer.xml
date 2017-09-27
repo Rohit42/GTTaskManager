@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/addTasks" android:icon="@drawable/ic_add_circle_black"
+            android:title="Add Tasks" />
+        <item android:id="@+id/viewTasks" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="View Tasks" />
+        <item android:id="@+id/findTask" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Find Tasks" />
+    </group>
+
+    <item android:title="Personal">
+        <menu>
+            <item android:id="@+id/account" android:icon="@android:drawable/ic_menu_share"
+                android:title="Account" />
+
+        </menu>
+    </item>
+
+</menu>
